@@ -1,0 +1,21 @@
+body{
+    background: #b9b4ae linear-gradient(to right, #b9b4ae, #31302e);
+}
+
+.iframe{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+.link{
+    display: flex;
+    padding: 10px;
+}
+
+
+.botao{
+    display: flex;
+    padding: 10px;
+}
+

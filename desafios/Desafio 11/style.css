@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://raw.githubusercontent.com/gustavoguanabara/html-css/master/desafios/modulo-02/d011/imagens/espaco.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    height: 500px;
+    max-width: 600px;
+    min-width: 320px;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
