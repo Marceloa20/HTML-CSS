@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Great+Vibes & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Dangrek & display=swap');
+
+:root {
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-conteudo: 'Great Vibes', cursiva;
+    --fonte-titulo: 'Dangrek', cursiva;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-size: 1em;
 }
 
 html, body {
+    font-family: var(--fonte-padrao);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -20,6 +32,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte-titulo);
+    font-size: 10vh;
 }
 
 header > p {
@@ -41,6 +55,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte-conteudo);
+    font-size: 3.5vh;
 }
 
 section.normal {
@@ -50,11 +66,13 @@ section.normal {
 
 section.imagem {
     background-color: rgb(34, 34, 34);
+    background-image: url('imagens/peixe.jpg');
     color: white;
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.219);
 }
 
